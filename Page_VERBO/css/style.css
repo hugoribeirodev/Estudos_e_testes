@@ -4,23 +4,87 @@
 }
 
 body{
-    background-color: brown;
+    background-color: #00272B;
     color: white;
 }
 
-.Navbar{
+.navbar{
+    background-color: #008491;
+    height: 40px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-right: 200px;
-    gap: 10px;
+    padding: 10px 20px;
 }
 
-#Verbo{
-    margin-left: 100px;
+.navzinha img{
+    flex-direction: row;
+}
+
+.verbo{
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.online{
+    font-size: 20px;
+    margin: 0 0 0 60px;
+    color: #81E979;
+    cursor: pointer;
 }
 
 ul{
-    list-style: none;
+    list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
+
+.nav-links li{
+    cursor: pointer;
+}
+
+.nav-links li:hover{
+    color: #00272B;
+}
+
+.matricula{
+    color: white;
+    background-color: #81E979;
+    box-shadow: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.Frase{
+    margin: 200px;
+}
+
+.comece{
+    margin: 10px 0 0 0;
+    color: white;
+    background-color: #81E979;
+    box-shadow: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 300px;
+}
+
+
+
